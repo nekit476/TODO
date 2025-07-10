@@ -45,6 +45,7 @@ public class Service {
         System.out.println("Список текущих задач");
         for (int i = 0; i < repo.getListOfTasks().size(); i++) {
             System.out.printf("%d. " + "%s%n", i+1, repo.getListOfTasks().get(i));
+            System.out.println(123);
         }
     }
 
