@@ -170,7 +170,9 @@ public class Service {
             repo.getListOfTasks().get(index - 1).setTaskDeadline(LocalDate.now().plusDays(newDeadline));
         }
     }
-
+    private void uselessMethod(){
+        System.out.println(111);
+    }
 
 
 
